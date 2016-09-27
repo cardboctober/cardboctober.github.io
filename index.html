@@ -1,0 +1,32 @@
+---
+---
+{% assign days = site.data.hacks | group_by:"date" %}
+<div class="intro">
+  <img src="css/google-cardboard.png">
+  <h1>Cardboctober</h1>
+  <nav>
+    {% for day in days %}
+      <a href="#{{ day.name | date:'%d' }}" class="day day-{{ day.name | date:'%d' }}">{{ day.name | date:'%d' }}</a>
+    {% endfor %}
+  </nav>
+</div>
+<div class="timeline">
+{% for day in days %}
+  <div class="day day-{{ day.name | date:'%d' }}" id="{{ day.name | date:'%d' }}">
+  <h2>{{ day.name | date: '%d' }}</h2>
+  {% for hack in day.items %}
+    <div class="hack hack-{{ hack.by }}">
+      <a href="{{ hack.url }}" target="_blank">
+        {% if hack.img %}
+          <div class="img-wrapper">
+            <img src="{{ hack.img }}" alt="{{ hack.title }}">
+          </div>
+        {% else %}
+          <h3>{{ hack.title }}</h3>
+        {% endif %}
+      </a>
+    </div>
+  {% endfor %}
+  </div>
+{% endfor %}
+</div>

@@ -1,0 +1,279 @@
+---
+---
+@charset "utf-8";
+
+$boxWidth: 36vw;
+$gutter: 8vw;
+$lineThickness: .4vw;
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+body {
+  font-family: Roboto Condensed;
+}
+h1, h2, h3 {
+  font-family: Megrim;
+}
+.intro {
+  width: 100%;
+  min-height: 100vh;
+  padding: 10vh 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: $lineThickness $lineThickness 0 rgba(#000, .2);
+  position: relative;
+  z-index: 1;
+
+  img {
+    max-width: 20vw;
+    height: auto;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 5vw;
+    text-transform: uppercase;
+  }
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 70vw;
+
+  .day {
+    padding: 1vw;
+    background: #111;
+    color: #fff;
+    text-decoration: none;
+    font-family: Megrim;
+    font-weight: bold;
+    letter-spacing: .2em;
+    line-height: 1;
+    margin: .25vw;
+    transition: all .2s ease
+  }
+}
+.timeline {
+
+  .day {
+    position: relative;
+    background: #111;
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+    padding: 2vw;
+    box-sizing: border-box;
+
+    h2 {
+      background: #fff;
+      color: #000;
+      width: 10vw;
+      margin: 0 auto 2vw;
+      padding: 1vw;
+      letter-spacing: .2em;
+      position: relative;
+      z-index: 1;
+      box-shadow: $lineThickness $lineThickness 0 rgba(#000, .2);
+
+      &::after {
+        content: '';
+        position: absolute;
+        top: -1em;
+        right: -.5em;
+        width: 1em;
+        height: 2em;
+        transform: rotate(-45deg)
+      }
+    }
+
+    &::after,
+    &::before {
+      content: '';
+      position: absolute;
+    }
+
+    &::after {
+      left: 50%;
+      margin-left: -($lineThickness/2);
+      width: $lineThickness;
+      background: #fff;
+      top: -$lineThickness * 1.1;
+      bottom: -$lineThickness;
+      box-shadow: $lineThickness $lineThickness 0 rgba(#000, .2);
+    }
+    &::before {
+      width: 110vw;
+      height: 10vw;
+      background: red;
+      transform: rotate(-5deg) translateX(-50%);
+      transform-origin: 50%;
+      left: 50%;
+      bottom: 0;
+    }
+  }
+  .hack {
+    position: relative;
+    width: $boxWidth;
+    max-height: 320px;
+    background: #fff;
+    display: block;
+    margin: 0 auto 2vw;
+    padding: 0;
+    clear: both;
+    box-shadow: $lineThickness $lineThickness 0 rgba(#000, .2);
+    z-index: 11;
+
+    .img-wrapper {
+      height: 0;
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+      padding-top: 56.25%;
+
+
+      img {
+        position: absolute;
+        left: 0; top: 0; right: 0; bottom: 0;
+        margin: auto;
+        width: 100%;
+      }
+    }
+    a {
+      text-decoration: none;
+    }
+    h3 {
+      color: #000;
+      padding: 1vw;
+      font-size: 2vw;
+      line-height: 1.2;
+    }
+
+    &::after,
+    &::before {
+      position: absolute;
+      content: '';
+      background: #fff;
+      top: 50%;
+      z-index: 12;
+    }
+
+    // line
+    &::before {
+      height: $lineThickness;
+      margin-top: -($lineThickness/2);
+      width: $gutter;
+      box-shadow: $lineThickness $lineThickness 0 rgba(#000, .2);
+    }
+
+    // diamond
+    &::after {
+      width: 20px;
+      height: 20px;
+      margin-top: -10px;
+      transform: rotate(-45deg);
+      box-shadow: $lineThickness $lineThickness 0 rgba(#000, .2);
+    }
+    &-max {
+      transform: translateX(-(($boxWidth/2) + $gutter + ($lineThickness / 2)));
+
+      &::after,
+      &::before {
+        right: -($gutter);
+      }
+      &::after {
+        margin-right: -12px;
+      }
+    }
+    &-ben {
+      transform: translateX((($boxWidth/2) + $gutter + ($lineThickness / 2)));
+
+      &::after,
+      &::before {
+        left: -($gutter);
+      }
+      &::after {
+        margin-left: -12px;
+        z-index: 11;
+      }
+    }
+  }
+}
+$colors: (
+  ("intro", #fff),
+  ("01", #868e96),
+  ("02", #fa5252),
+  ("03", #e64980),
+  ("04", #be4bdb),
+  ("05", #7950f2),
+  ("06", #4c6ef5),
+  ("07", #228ae6),
+  ("08", #15aabf),
+  ("09", #12b886),
+  ("10", #40c057),
+  ("11", #82c91e),
+  ("12", #fab005),
+  ("13", #fd7e14),
+
+  ("14", #fa5252),
+  ("15", #e64980),
+  ("16", #be4bdb),
+  ("17", #7950f2),
+  ("18", #4c6ef5),
+  ("19", #228ae6),
+  ("20", #15aabf),
+  ("21", #12b886),
+  ("22", #40c057),
+  ("23", #82c91e),
+  ("24", #fab005),
+  ("25", #fd7e14),
+
+  ("26", #fa5252),
+  ("27", #e64980),
+  ("28", #be4bdb),
+  ("29", #7950f2),
+  ("30", #4c6ef5),
+  ("31", #228ae6),
+);
+
+.timeline {
+  .day {
+    $i: 1;
+    @each $num,$color in $colors {
+      &-#{$num} {
+        &,
+        h2::after {
+          background-color: $color;
+        }
+
+        @if $i != 31 {
+          &::before {
+            background-color: nth(nth($colors, $i + 1), 2);
+          }
+          $i: $i + 1;
+        }
+      }
+    }
+  }
+}
+nav {
+  .day {
+    @each $num,$color in $colors {
+      &-#{$num}:hover {
+        background-color: $color;
+      }
+    }
+  }
+}

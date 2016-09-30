@@ -9,16 +9,18 @@ $lineThickness: .4vw;
 html, body {
   margin: 0;
   padding: 0;
-}
-html {
   overflow-y: auto;
   overflow-x: hidden;
 }
 body {
   font-family: Roboto Condensed;
 }
-h1, h2, h3 {
+h1, h2 {
   font-family: Megrim;
+}
+h3 {
+  margin: 0;
+  padding: 1em 0;
 }
 .intro {
   width: 100%;
@@ -67,14 +69,13 @@ nav {
   }
 }
 .timeline {
-
   .day {
     position: relative;
     background: #111;
     min-height: 100vh;
     width: 100%;
     text-align: center;
-    padding: 2vw;
+    padding: 2vw 2vw 400px;
     box-sizing: border-box;
 
     h2 {
@@ -87,16 +88,6 @@ nav {
       position: relative;
       z-index: 1;
       box-shadow: $lineThickness $lineThickness 0 rgba(#000, .2);
-
-      &::after {
-        content: '';
-        position: absolute;
-        top: -1em;
-        right: -.5em;
-        width: 1em;
-        height: 2em;
-        transform: rotate(-45deg)
-      }
     }
 
     &::after,
@@ -124,93 +115,98 @@ nav {
       bottom: 0;
     }
   }
-  .hack {
+}
+.hack {
+  position: relative;
+  width: $boxWidth;
+  background: #fff;
+  display: block;
+  margin: 0 auto 2vw;
+  padding: 0;
+  clear: both;
+  box-shadow: $lineThickness $lineThickness 0 rgba(#000, .2);
+  z-index: 11;
+
+  .img-wrapper {
+    height: 0;
+    width: 100%;
+    overflow: hidden;
     position: relative;
-    width: $boxWidth;
-    max-height: 320px;
-    background: #fff;
-    display: block;
-    margin: 0 auto 2vw;
-    padding: 0;
-    clear: both;
-    box-shadow: $lineThickness $lineThickness 0 rgba(#000, .2);
-    z-index: 11;
+    padding-top: 50%;
 
-    .img-wrapper {
-      height: 0;
+    img {
+      position: absolute;
+      left: 0; top: 0; right: 0; bottom: 0;
+      margin: 0 auto;
       width: 100%;
-      overflow: hidden;
-      position: relative;
-      padding-top: 56.25%;
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+  h3 {
+    color: #000;
+    font-size: 2vw;
+    line-height: 1.2;
+    margin: 0 20px;
+    text-align: left;
+  }
+  .author {
+    text-align: left;
+    margin-left: 20px;
+  }
 
+  &::after,
+  &::before {
+    position: absolute;
+    content: '';
+    background: #fff;
+    top: 50%;
+    z-index: 12;
+  }
 
-      img {
-        position: absolute;
-        left: 0; top: 0; right: 0; bottom: 0;
-        margin: auto;
-        width: 100%;
-      }
-    }
-    a {
-      text-decoration: none;
-    }
-    h3 {
-      color: #000;
-      padding: 1vw;
-      font-size: 2vw;
-      line-height: 1.2;
-    }
+  // line
+  &::before {
+    height: $lineThickness;
+    margin-top: -($lineThickness/2);
+    width: $gutter;
+  }
+
+  // diamond
+  &::after {
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    transform: rotate(-45deg);
+    box-shadow: $lineThickness $lineThickness 0 rgba(#000, .2);
+  }
+
+  &:nth-child(odd) {
+    transform: translateX(-(($boxWidth/2) + $gutter + ($lineThickness / 2)));
 
     &::after,
     &::before {
-      position: absolute;
-      content: '';
-      background: #fff;
-      top: 50%;
-      z-index: 12;
+      right: -($gutter);
     }
-
-    // line
-    &::before {
-      height: $lineThickness;
-      margin-top: -($lineThickness/2);
-      width: $gutter;
-      box-shadow: $lineThickness $lineThickness 0 rgba(#000, .2);
-    }
-
-    // diamond
     &::after {
-      width: 20px;
-      height: 20px;
-      margin-top: -10px;
-      transform: rotate(-45deg);
-      box-shadow: $lineThickness $lineThickness 0 rgba(#000, .2);
+      margin-right: -12px;
     }
-    &-max {
-      transform: translateX(-(($boxWidth/2) + $gutter + ($lineThickness / 2)));
+  }
 
-      &::after,
-      &::before {
-        right: -($gutter);
-      }
-      &::after {
-        margin-right: -12px;
-      }
+  &:nth-child(even) {
+    transform: translateX((($boxWidth/2) + $gutter + ($lineThickness / 2)));
+
+    &::after,
+    &::before {
+      left: -($gutter);
     }
-    &-ben {
-      transform: translateX((($boxWidth/2) + $gutter + ($lineThickness / 2)));
-
-      &::after,
-      &::before {
-        left: -($gutter);
-      }
-      &::after {
-        margin-left: -12px;
-        z-index: 11;
-      }
+    &::after {
+      margin-left: -12px;
+      z-index: 11;
     }
   }
 }
+
 $colors: (
   ("intro", #fff),
   ("01", #868e96),
@@ -226,7 +222,6 @@ $colors: (
   ("11", #82c91e),
   ("12", #fab005),
   ("13", #fd7e14),
-
   ("14", #fa5252),
   ("15", #e64980),
   ("16", #be4bdb),
@@ -239,7 +234,6 @@ $colors: (
   ("23", #82c91e),
   ("24", #fab005),
   ("25", #fd7e14),
-
   ("26", #fa5252),
   ("27", #e64980),
   ("28", #be4bdb),
@@ -254,9 +248,10 @@ $colors: (
     @each $num,$color in $colors {
       &-#{$num} {
         &,
-        h2::after {
+        .btn {
           background-color: $color;
         }
+
 
         @if $i != 31 {
           &::before {
@@ -264,6 +259,13 @@ $colors: (
           }
           $i: $i + 1;
         }
+      }
+    }
+    // Stop showing next section color when only one day
+    &:only-child,
+    &:last-child {
+      &::before {
+        display: none;
       }
     }
   }
@@ -274,6 +276,48 @@ nav {
       &-#{$num}:hover {
         background-color: $color;
       }
+    }
+  }
+}
+
+.btns {
+  padding: 1em
+}
+.btn {
+  padding: .5em 1em;
+  line-height: 1;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Megrim;
+}
+
+
+@media (max-width: 900px) {
+  .intro {
+    min-height: 0;
+
+    img {
+      max-width: 200px;
+    }
+    h1 {
+      font-size: 30px;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .hack {
+    position: static;
+    width: 100%!important;
+    transform: none!important;
+
+    &::after,
+    &::before {
+      display: none!important;
+    }
+
+    h3 {
+      font-size: 20px!important;
     }
   }
 }

@@ -1,5 +1,6 @@
 # - date: 01-10-2016 (dd-mm-yyyy)
-#   title:
-#   url:
+#   title: (e.g. Basic VR)
+#   url: (e.g. https://cardboctober.xyz/max/01/)
+#   blog_url: (e.g. https://blog.omgmog.net/post/cardboctober-01/)
 #   img: img/max-01.png (either full url, or file in img directory)
-#   by: max|ben
+#   by: (Github username only, e.g. omgmog)

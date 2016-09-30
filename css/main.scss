@@ -9,6 +9,8 @@ $lineThickness: .4vw;
 html, body {
   margin: 0;
   padding: 0;
+}
+html {
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -319,16 +321,16 @@ nav {
       font-size: 30px;
     }
   }
+  .day {
+    padding-bottom: 200px;
+
+    &::after {
+      display: none!important;
+    }
+  }
 }
 @media (max-width: 600px) {
   .timeline {
-    .day {
-      padding-bottom: 200px;
-
-      &::after {
-        display: none!important;
-      }
-    }
     .hack {
       position: static;
       width: 100%!important;

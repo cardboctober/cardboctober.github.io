@@ -4,3 +4,9 @@
 #   blog_url: (e.g. https://blog.omgmog.net/post/cardboctober-01/)
 #   img: img/max-01.png (either full url, or file in img directory)
 #   by: (Github username only, e.g. omgmog)
+
+- date: 01-10-2016
+  title: Cube
+  url: https://cardboctober.xyz/ben/01/
+  img: https://cardboctober.xyz/ben/01/screen.png
+  by: benjaminbenben

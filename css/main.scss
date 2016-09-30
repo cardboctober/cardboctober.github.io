@@ -22,6 +22,10 @@ h3 {
   margin: 0;
   padding: 1em 0;
 }
+a {
+  color: #000;
+  text-decoration: none;
+}
 .intro {
   width: 100%;
   min-height: 100vh;
@@ -45,6 +49,10 @@ h3 {
     font-size: 5vw;
     text-transform: uppercase;
   }
+  p {
+    max-width: 70vw;
+    text-align: center;
+  }
 }
 
 nav {
@@ -54,9 +62,10 @@ nav {
   flex-direction: row;
   flex-wrap: wrap;
   max-width: 70vw;
+  margin-top: 20px;
 
   .day {
-    padding: 1vw;
+    padding: .5em;
     background: #111;
     color: #fff;
     text-decoration: none;
@@ -141,9 +150,6 @@ nav {
       width: 100%;
     }
   }
-  a {
-    text-decoration: none;
-  }
   h3 {
     color: #000;
     font-size: 2vw;
@@ -154,6 +160,15 @@ nav {
   .author {
     text-align: left;
     margin-left: 20px;
+
+    a {
+      text-decoration: underline;
+
+      &:hover {
+        color: #fff;
+        background: #000;
+      }
+    }
   }
 
   &::after,
@@ -306,18 +321,27 @@ nav {
   }
 }
 @media (max-width: 600px) {
-  .hack {
-    position: static;
-    width: 100%!important;
-    transform: none!important;
+  .timeline {
+    .day {
+      padding-bottom: 200px;
 
-    &::after,
-    &::before {
-      display: none!important;
+      &::after {
+        display: none!important;
+      }
     }
+    .hack {
+      position: static;
+      width: 100%!important;
+      transform: none!important;
 
-    h3 {
-      font-size: 20px!important;
+      &::after,
+      &::before {
+        display: none!important;
+      }
+
+      h3 {
+        font-size: 20px!important;
+      }
     }
   }
 }

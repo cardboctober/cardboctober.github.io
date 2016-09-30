@@ -4,6 +4,7 @@
 <div class="intro">
   <img src="css/google-cardboard.png">
   <h1>Cardboctober</h1>
+  <p>Each day in November we're making something for Google Cardboard. Check back daily to see how we're getting on!</p>
   <nav>
     {% for day in days %}
       <a href="#{{ day.name | date:'%d' }}" class="day day-{{ day.name | date:'%d' }}">{{ day.name | date:'%d' }}</a>

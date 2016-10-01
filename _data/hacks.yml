@@ -4,3 +4,11 @@
 #   blog_url: (e.g. https://blog.omgmog.net/post/cardboctober-01/)
 #   img: img/max-01.png (either full url, or file in img directory)
 #   by: (Github username only, e.g. omgmog)
+
+- date: 01-10-2016
+  title: Basic VR
+  url: https://cardboctober.xyz/max/01/
+  blog_url: https://blog.omgmog.net/post/cardboctober-01/
+  img: https://media.giphy.com/media/l2SpNGWxPXNUpOp7G/giphy.gif
+  by: omgmog
+

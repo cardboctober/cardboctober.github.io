@@ -73,6 +73,7 @@ nav {
     text-decoration: none;
     font-family: Megrim;
     font-weight: bold;
+    font-size: 21px;
     letter-spacing: .2em;
     line-height: 1;
     margin: .25vw;
@@ -86,7 +87,7 @@ nav {
     min-height: 100vh;
     width: 100%;
     text-align: center;
-    padding: 2vw 2vw 400px;
+    padding: 2vw 2vw 200px;
     box-sizing: border-box;
 
     h2 {
@@ -298,7 +299,7 @@ nav {
 }
 
 .btns {
-  padding: 1em
+  padding: 1em 0;
 }
 .btn {
   padding: .5em 1em;
@@ -306,7 +307,8 @@ nav {
   display: inline-block;
   color: #fff;
   text-transform: uppercase;
-  font-family: Megrim;
+  font-size: 21px;
+  font-weight: bold;
 }
 
 
@@ -321,12 +323,22 @@ nav {
       font-size: 30px;
     }
   }
-  .day {
-    padding-bottom: 200px;
-
-    &::after {
-      display: none!important;
+  .timeline {
+    .day {
+      &::after {
+        display: none!important;
+      }
     }
+  }
+  .hack {
+    display: inline-block;
+    transform: none!important;
+    width: 48%!important;
+
+      &::after,
+      &::before {
+        display: none!important;
+      }
   }
 }
 @media (max-width: 600px) {
@@ -335,11 +347,6 @@ nav {
       position: static;
       width: 100%!important;
       transform: none!important;
-
-      &::after,
-      &::before {
-        display: none!important;
-      }
 
       h3 {
         font-size: 20px!important;

@@ -14,30 +14,32 @@
 <div class="timeline">
 {% for day in days %}
   <div class="day day-{{ day.name | date:'%d' }}" id="{{ day.name | date:'%d' }}">
-  <h2>{{ day.name | date: '%d' }}</h2>
-  {% for hack in day.items %}
-    <div class="hack hack-{{ hack.by }}">
-        {% if hack.img %}
-          <div class="img-wrapper">
-            <img src="{{ hack.img }}" alt="{{ hack.title }}">
+    <h2>{{ day.name | date: '%d' }}</h2>
+    <div class="hacks">
+      {% for hack in day.items %}
+        <div class="hack hack-{{ hack.by }}">
+            {% if hack.img %}
+              <div class="img-wrapper">
+                <img src="{{ hack.img }}" alt="{{ hack.title }}">
+              </div>
+            {% endif %}
+          <h3>{{ hack.title }}</h3>
+          <div class="author">
+            by <a href="https://github.com/{{ hack.by }}" target="_blank">{{ hack.by }}</a>
           </div>
-        {% endif %}
-      <h3>{{ hack.title }}</h3>
-      <div class="author">
-        by <a href="https://github.com/{{ hack.by }}" target="_blank">{{ hack.by }}</a>
-      </div>
-      <div class="btns">
-        <a href="{{ hack.url }}" target="_blank" class="btn">
-          View hack
-        </a>
-        {% if hack.blog_url %}
-        <a href="{{ hack.blog_url }}" target="_blank" class="btn">
-          View post
-        </a>
-      {% endif %}
-      </div>
+          <div class="btns">
+            <a href="{{ hack.url }}" target="_blank" class="btn">
+              View hack
+            </a>
+            {% if hack.blog_url %}
+            <a href="{{ hack.blog_url }}" target="_blank" class="btn">
+              View post
+            </a>
+          {% endif %}
+          </div>
+        </div>
+      {% endfor %}
     </div>
-  {% endfor %}
   </div>
 {% endfor %}
 </div>

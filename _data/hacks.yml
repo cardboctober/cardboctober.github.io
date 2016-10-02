@@ -9,7 +9,7 @@
   title: Basic VR
   url: https://cardboctober.xyz/max/01/
   blog_url: https://blog.omgmog.net/post/cardboctober-01/
-  img: https://media.giphy.com/media/l2SpNGWxPXNUpOp7G/giphy.gif
+  img: https://i.giphy.com/l2SpNGWxPXNUpOp7G.gif
   by: omgmog
 
 - date: 01-10-2016
@@ -23,4 +23,11 @@
   url: https://cardboctober.xyz/pete/01/
   img: https://cardboctober.xyz/pete/01/screenshot.png
   by: peterjwest
+
+- date: 02-10-2016
+  title: Raycaster based look interaction
+  url: https://cardboctober.xyz/max/02/
+  blog_url: https://blog.omgmog.net/post/cardboctober-02/
+  img: https://i.giphy.com/l3vRnrkrMySW1m4dG.gif
+  by: omgmog
 

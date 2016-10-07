@@ -28,14 +28,16 @@
             by <a href="https://github.com/{{ hack.by }}" target="_blank">{{ hack.by }}</a>
           </div>
           <div class="btns">
+            {% if hack.url %}
             <a href="{{ hack.url }}" target="_blank" class="btn">
               View hack
             </a>
+            {% endif %}
             {% if hack.blog_url %}
             <a href="{{ hack.blog_url }}" target="_blank" class="btn">
               View post
             </a>
-          {% endif %}
+            {% endif %}
           </div>
         </div>
       {% endfor %}

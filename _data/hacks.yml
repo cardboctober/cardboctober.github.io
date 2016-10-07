@@ -109,7 +109,7 @@
 - date: 06-10-2016
   title: VR Pairs Game
   url: https://cardboctober.xyz/max/06/
-  blog_url:   https://blog.omgmog.net/post/cardboctober-06/
+  blog_url: https://blog.omgmog.net/post/cardboctober-06/
   img: https://cardboctober.xyz/max/06/giphy.gif
   by: omgmog
 
@@ -125,7 +125,11 @@
   img: https://cardboctober.xyz/pete/06/screenshot.png
   by: peterjwest
 
-# HI MAX! WHY DO YOU NEVER WRITE BACK?
+- date: 07-10-2016
+  title: Cardboard hardware (cardware?)
+  blog_url: https://blog.omgmog.net/post/cardboctober-07/
+  img: https://blog.omgmog.net/images/2016-10-07/eyes.jpg
+  by: omgmog
 
 - date: 07-10-2016
   title: Space & Time Mesh

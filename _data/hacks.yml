@@ -137,10 +137,17 @@
   img: https://cardboctober.xyz/ben/07/screen.png
   by: benfoxall
 
-# HEY MAX, HOW ARE YOU :)
-
 - date: 07-10-2016
   title: Orbitals
   url: https://cardboctober.xyz/pete/07/
   img: https://cardboctober.xyz/pete/07/screenshot.png
   by: peterjwest
+
+- date: 08-10-2016
+  title: Playing sounds
+  url: https://cardboctober.xyz/max/08/
+  blog_url: https://blog.omgmog.net/post/cardboctober-08/
+  img: https://cardboctober.xyz/max/08/giphy.gif
+  by: omgmog
+
+# HEY GUYS I'M GREAT THANKS. HOW ABOUT THIS YAML? KEEP UP THE GOOD WORK!

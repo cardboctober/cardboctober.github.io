@@ -3,8 +3,8 @@
 {% assign days = site.data.hacks | group_by:"date" %}
 <div class="intro">
   <img src="css/google-cardboard.png">
-  <h1>Cardboctober</h1>
-  <p>Each day in October we're making something for Google Cardboard. Check back daily to see how we're getting on!</p>
+  <h1>{{ site.title }}</h1>
+  <p>{{ site.description }}</p>
   <nav>
     {% for day in days %}
       <a href="#{{ day.name | date:'%d' }}" class="day day-{{ day.name | date:'%d' }}">{{ day.name | date:'%d' }}</a>

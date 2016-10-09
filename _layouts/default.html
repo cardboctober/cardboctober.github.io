@@ -4,9 +4,25 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Cardboctober 2016</title>
+  <title>{{ site.title }}</title>
+
+  <meta name="description" content="{{ site.description }}"/>
+  <!-- opengraph -->
+  <meta property="og:title" content="{{ site.title }}"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:url" content="https://cardboctober.xyz"/>
+  <meta property="og:image" content="https://cardboctober.xyz/css/share-image.png"/>
+  <!-- twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@omgmog" />
+  <meta name="twitter:title" content="{{ site.title }}" />
+  <meta name="twitter:description" content="{{ site.description }}" />
+  <meta name="twitter:image" content="https://cardboctober.xyz/css/share-image.png" />
+
+  <!-- everything else -->
+  <link rel="canonical" href="https://cardboctober.xyz" />
   <link rel="stylesheet" href="css/main.css">
-  <link href="https://fonts.googleapis.com/css?family=Megrim|Roboto+Condensed" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Megrim|Roboto+Condensed">
 </head>
 <body>
   {{ content }}

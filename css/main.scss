@@ -325,7 +325,10 @@ nav {
   }
   .timeline {
     .day {
-      &::after {
+      padding: 20px 10px;
+
+      &::after,
+      &::before {
         display: none!important;
       }
     }

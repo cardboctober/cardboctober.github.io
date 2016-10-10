@@ -156,6 +156,12 @@
   img: https://cardboctober.xyz/ben/08/screen.png
   by: benfoxall
 
+- date: 08-10-2016
+  title: Smoke sphere
+  url: https://cardboctober.xyz/pete/08/
+  img: https://cardboctober.xyz/pete/08/screenshot.png
+  by: peterjwest
+
 - date: 09-10-2016
   title: Speech Recognition
   url: https://cardboctober.xyz/max/09/
@@ -169,4 +175,10 @@
   img: https://cardboctober.xyz/ben/09/screen.png
   by: benfoxall
 
-# HELLO, DOG? I'M LOOKING FOR DOG. THE LINE IS BAD.
+- date: 09-10-2016
+  title: Jetpack
+  url: https://cardboctober.xyz/pete/09/
+  img: https://cardboctober.xyz/pete/09/screenshot.png
+  by: peterjwest
+
+# HELLO. YES THIS IS DOG. WHERE IS FOOD?

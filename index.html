@@ -2,7 +2,7 @@
 ---
 {% assign days = site.data.hacks | group_by:"date" %}
 <div class="intro">
-  <img src="css/google-cardboard.png">
+  <img src="assets/google-cardboard.png">
   <h1>{{ site.title }}</h1>
   <p>{{ site.description }}</p>
   <nav>
@@ -20,7 +20,7 @@
         <div class="hack hack-{{ hack.by }}">
             {% if hack.img %}
               <div class="img-wrapper">
-                <img src="css/loading.gif" data-src="{{ hack.img }}" alt="{{ hack.title }}">
+                <img src="assets/loading.gif" data-src="{{ hack.img }}" alt="{{ hack.title }}">
               </div>
             {% endif %}
           <h3>{{ hack.title }}</h3>

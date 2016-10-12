@@ -187,7 +187,7 @@
   blog_url: https://blog.omgmog.net/post/cardboctober-10/
   img: https://cardboctober.xyz/max/10/giphy.gif
   by: omgmog
-  
+
 - date: 10-10-2016
   title: Circles
   url: https://cardboctober.xyz/ben/10/
@@ -219,4 +219,11 @@
   img: https://cardboctober.xyz/pete/11/screenshot.png
   by: peterjwest
 
-# ben.where() // Uncaught TypeError: Cannot read property 'where' of undefined
+- date: 12-10-2016
+  title: AAAAH! Zombies
+  url: https://cardboctober.xyz/max/12/
+  # blog_url: https://blog.omgmog.net/post/cardboctober-12/
+  img: https://cardboctober.xyz/max/12/giphy.gif
+  by: omgmog
+
+# ben.clone()

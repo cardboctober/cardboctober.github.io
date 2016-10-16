@@ -17,7 +17,7 @@
     <h2>{{ day.name | date: '%d' }}</h2>
     <div class="hacks">
       {% for hack in day.items %}
-        <div class="hack hack-{{ hack.by }}">
+        <div class="hack hack-{{ hack.by }}" id="{{ day.name | date:'%d' }}-{{ hack.by }}">
             {% if hack.img %}
               <div class="img-wrapper">
                 <img src="assets/loading.gif" data-src="{{ hack.img }}" alt="{{ hack.title }}">

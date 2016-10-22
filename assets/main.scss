@@ -77,7 +77,9 @@ nav {
     letter-spacing: .2em;
     line-height: 1;
     margin: .25vw;
-    transition: all .2s ease
+    transition: all .2s ease;
+    flex-basis: 8.5%; // magic
+    text-align: center;
   }
 }
 .timeline {

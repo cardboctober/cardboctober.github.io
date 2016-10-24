@@ -349,11 +349,22 @@
   img: https://blog.omgmog.net/images/2016-10-21/bad-ipd.png
   by: omgmog
 
+- date: 21-10-2016
+  title: UX Improvements
+  url: https://cardboctober.xyz/pete/21/
+  img: https://cardboctober.xyz/pete/21/screenshot.png
+  by: peterjwest
+
 - date: 22-10-2016
   title: Putting it all together
   blog_url: https://blog.omgmog.net/post/cardboctober-22/
   img: https://cardboctober.xyz/max/22/tevris-01.jpg
   by: omgmog
+
+- date: 22-10-2016
+  title: Experiments in optimising three.js
+  blog_url: https://medium.com/@peterjwest/experiments-in-optimising-three-js-9d934ccabf40
+  by: peterjwest
 
 - date: 23-10-2016
   title: Planning Tetrominoes in VR

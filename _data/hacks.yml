@@ -433,14 +433,14 @@
   by: peterjwest
 
 - date: 28-10-2016
-  title: Beer
-  url: https://cardboctober.xyz/pete/28/
-  img: https://cardboctober.xyz/pete/28/screenshot.png
-  by: peterjwest
-
-- date: 28-10-2016
   title: Planning Revisited
   url: https://cardboctober.xyz/max/28
   blog_url: https://blog.omgmog.net/post/cardboctober-28/
   img: https://cardboctober.xyz/max/28/tevris-07.jpg
   by: omgmog
+
+- date: 28-10-2016
+  title: Beer
+  url: https://cardboctober.xyz/pete/28/
+  img: https://cardboctober.xyz/pete/28/screenshot.png
+  by: peterjwest

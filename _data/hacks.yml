@@ -452,12 +452,24 @@
   img: https://cardboctober.xyz/max/29/tevris-08.jpg
   by: omgmog
 
+- date: 29-10-2016
+  title: Desert island
+  url: https://cardboctober.xyz/pete/29/
+  img: https://cardboctober.xyz/pete/29/screenshot.png
+  by: peterjwest
+
 - date: 30-10-2016
   title: Github Contributions
   url: https://cardboctober.xyz/max/30
   blog_url: https://blog.omgmog.net/post/cardboctober-30/
   img: https://cardboctober.xyz/max/30/giphy.gif
   by: omgmog
+
+- date: 30-10-2016
+  title: For Max, with love
+  url: https://cardboctober.xyz/pete/30/
+  img: https://cardboctober.xyz/pete/30/screenshot.png
+  by: peterjwest
 
 - date: 31-10-2016
   title: Something in the Shadows

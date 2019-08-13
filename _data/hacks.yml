@@ -1,128 +1,128 @@
 # - date: 01-10-2016 (dd-mm-yyyy)
 #   title: (e.g. Basic VR)
-#   url: (e.g. https://cardboctober.xyz/max/01/)
+#   url: (e.g. https://cardboctober.github.io/max/01/)
 #   blog_url: (e.g. https://blog.omgmog.net/post/cardboctober-01/)
 #   img: img/max-01.png (either full url, or file in img directory)
 #   by: (Github username only, e.g. omgmog)
 
 - date: 01-10-2016
   title: Basic VR
-  url: https://cardboctober.xyz/max/01/
+  url: https://cardboctober.github.io/max/01/
   blog_url: https://blog.omgmog.net/post/cardboctober-01/
-  img: https://cardboctober.xyz/max/01/giphy.gif
+  img: https://cardboctober.github.io/max/01/giphy.gif
   by: omgmog
 
 - date: 01-10-2016
   title: Cube
-  url: https://cardboctober.xyz/ben/01/
-  img: https://cardboctober.xyz/ben/01/screen.png
+  url: https://cardboctober.github.io/ben/01/
+  img: https://cardboctober.github.io/ben/01/screen.png
   by: benfoxall
 
 - date: 01-10-2016
   title: Gears
-  url: https://cardboctober.xyz/pete/01/
-  img: https://cardboctober.xyz/pete/01/screenshot.png
+  url: https://cardboctober.github.io/pete/01/
+  img: https://cardboctober.github.io/pete/01/screenshot.png
   by: peterjwest
 
 - date: 02-10-2016
   title: Raycaster based look interaction
-  url: https://cardboctober.xyz/max/02/
+  url: https://cardboctober.github.io/max/02/
   blog_url: https://blog.omgmog.net/post/cardboctober-02/
-  img: https://cardboctober.xyz/max/02/giphy.gif
+  img: https://cardboctober.github.io/max/02/giphy.gif
   by: omgmog
 
 - date: 02-10-2016
   title: Moving grid thing
-  url: https://cardboctober.xyz/ben/02/
-  img: https://cardboctober.xyz/ben/02/screen.png
+  url: https://cardboctober.github.io/ben/02/
+  img: https://cardboctober.github.io/ben/02/screen.png
   by: benfoxall
 
 - date: 02-10-2016
   title: Put the kettle on
-  url: https://cardboctober.xyz/binhums/2016-10-02/
-  img: https://cardboctober.xyz/binhums/2016-10-02/screenshot.png
+  url: https://cardboctober.github.io/binhums/2016-10-02/
+  img: https://cardboctober.github.io/binhums/2016-10-02/screenshot.png
   by: binhums
 
 - date: 02-10-2016
   title: Earthrise
-  url: https://cardboctober.xyz/pete/02/
-  img: https://cardboctober.xyz/pete/02/screenshot.png
+  url: https://cardboctober.github.io/pete/02/
+  img: https://cardboctober.github.io/pete/02/screenshot.png
   by: peterjwest
 
 - date: 03-10-2016
   title: Even better gazed based look interaction
-  url: https://cardboctober.xyz/max/03/
+  url: https://cardboctober.github.io/max/03/
   blog_url:   https://blog.omgmog.net/post/cardboctober-03/
-  img: https://cardboctober.xyz/max/03/giphy.gif
+  img: https://cardboctober.github.io/max/03/giphy.gif
   by: omgmog
 
 - date: 03-10-2016
   title: Ribbon
-  url: https://cardboctober.xyz/ben/03/
-  img: https://cardboctober.xyz/ben/03/screen.png
+  url: https://cardboctober.github.io/ben/03/
+  img: https://cardboctober.github.io/ben/03/screen.png
   by: benfoxall
 
 - date: 03-10-2016
   title: Bounce
-  url: https://cardboctober.xyz/pete/03/
-  img: https://cardboctober.xyz/pete/03/screenshot.png
+  url: https://cardboctober.github.io/pete/03/
+  img: https://cardboctober.github.io/pete/03/screenshot.png
   by: peterjwest
 
 - date: 04-10-2016
   title: Skyboxes and generating meshes
-  url: https://cardboctober.xyz/max/04/
+  url: https://cardboctober.github.io/max/04/
   blog_url:   https://blog.omgmog.net/post/cardboctober-04/
-  img: https://cardboctober.xyz/max/04/giphy.gif
+  img: https://cardboctober.github.io/max/04/giphy.gif
   by: omgmog
 
 - date: 04-10-2016
   title: Grid
-  url: https://cardboctober.xyz/ben/04/
-  img: https://cardboctober.xyz/ben/04/screen.png
+  url: https://cardboctober.github.io/ben/04/
+  img: https://cardboctober.github.io/ben/04/screen.png
   by: benfoxall
 
 - date: 04-10-2016
   title: Moonwalk
-  url: https://cardboctober.xyz/pete/04/
-  img: https://cardboctober.xyz/pete/02/screenshot.png
+  url: https://cardboctober.github.io/pete/04/
+  img: https://cardboctober.github.io/pete/02/screenshot.png
   by: peterjwest
 
 - date: 05-10-2016
   title: Loading external models
-  url: https://cardboctober.xyz/max/05/
+  url: https://cardboctober.github.io/max/05/
   blog_url:   https://blog.omgmog.net/post/cardboctober-05/
-  img: https://cardboctober.xyz/max/05/giphy.gif
+  img: https://cardboctober.github.io/max/05/giphy.gif
   by: omgmog
 
 - date: 05-10-2016
   title: Cubes
-  url: https://cardboctober.xyz/ben/05/
-  img: https://cardboctober.xyz/ben/05/screen.png
+  url: https://cardboctober.github.io/ben/05/
+  img: https://cardboctober.github.io/ben/05/screen.png
   by: benfoxall
 
 - date: 05-10-2016
   title: Deep impact
-  url: https://cardboctober.xyz/pete/05/
-  img: https://cardboctober.xyz/pete/05/screenshot.png
+  url: https://cardboctober.github.io/pete/05/
+  img: https://cardboctober.github.io/pete/05/screenshot.png
   by: peterjwest
 
 - date: 06-10-2016
   title: VR Pairs Game
-  url: https://cardboctober.xyz/max/06/
+  url: https://cardboctober.github.io/max/06/
   blog_url: https://blog.omgmog.net/post/cardboctober-06/
-  img: https://cardboctober.xyz/max/06/giphy.gif
+  img: https://cardboctober.github.io/max/06/giphy.gif
   by: omgmog
 
 - date: 06-10-2016
   title: Drifting Mesh
-  url: https://cardboctober.xyz/ben/06/
-  img: https://cardboctober.xyz/ben/06/screen.png
+  url: https://cardboctober.github.io/ben/06/
+  img: https://cardboctober.github.io/ben/06/screen.png
   by: benfoxall
 
 - date: 06-10-2016
   title: Archery practice
-  url: https://cardboctober.xyz/pete/06/
-  img: https://cardboctober.xyz/pete/06/screenshot.png
+  url: https://cardboctober.github.io/pete/06/
+  img: https://cardboctober.github.io/pete/06/screenshot.png
   by: peterjwest
 
 - date: 07-10-2016
@@ -133,122 +133,122 @@
 
 - date: 07-10-2016
   title: Space & Time Mesh
-  url: https://cardboctober.xyz/ben/07/
-  img: https://cardboctober.xyz/ben/07/screen.png
+  url: https://cardboctober.github.io/ben/07/
+  img: https://cardboctober.github.io/ben/07/screen.png
   by: benfoxall
 
 - date: 07-10-2016
   title: Orbitals
-  url: https://cardboctober.xyz/pete/07/
-  img: https://cardboctober.xyz/pete/07/screenshot.png
+  url: https://cardboctober.github.io/pete/07/
+  img: https://cardboctober.github.io/pete/07/screenshot.png
   by: peterjwest
 
 - date: 08-10-2016
   title: Playing sounds
-  url: https://cardboctober.xyz/max/08/
+  url: https://cardboctober.github.io/max/08/
   blog_url: https://blog.omgmog.net/post/cardboctober-08/
-  img: https://cardboctober.xyz/max/08/giphy.gif
+  img: https://cardboctober.github.io/max/08/giphy.gif
   by: omgmog
 
 - date: 08-10-2016
   title: Triangle
-  url: https://cardboctober.xyz/ben/08/
-  img: https://cardboctober.xyz/ben/08/screen.png
+  url: https://cardboctober.github.io/ben/08/
+  img: https://cardboctober.github.io/ben/08/screen.png
   by: benfoxall
 
 - date: 08-10-2016
   title: Smoke sphere
-  url: https://cardboctober.xyz/pete/08/
-  img: https://cardboctober.xyz/pete/08/screenshot.png
+  url: https://cardboctober.github.io/pete/08/
+  img: https://cardboctober.github.io/pete/08/screenshot.png
   by: peterjwest
 
 - date: 09-10-2016
   title: Speech Recognition
-  url: https://cardboctober.xyz/max/09/
+  url: https://cardboctober.github.io/max/09/
   blog_url: https://blog.omgmog.net/post/cardboctober-09/
-  img: https://cardboctober.xyz/max/09/giphy.gif
+  img: https://cardboctober.github.io/max/09/giphy.gif
   by: omgmog
 
 - date: 09-10-2016
   title: Floor
-  url: https://cardboctober.xyz/ben/09/
-  img: https://cardboctober.xyz/ben/09/screen.png
+  url: https://cardboctober.github.io/ben/09/
+  img: https://cardboctober.github.io/ben/09/screen.png
   by: benfoxall
 
 - date: 09-10-2016
   title: Jetpack
-  url: https://cardboctober.xyz/pete/09/
-  img: https://cardboctober.xyz/pete/09/screenshot.jpg
+  url: https://cardboctober.github.io/pete/09/
+  img: https://cardboctober.github.io/pete/09/screenshot.jpg
   by: peterjwest
 
 - date: 10-10-2016
   title: HTML5 Video
-  url: https://cardboctober.xyz/max/10/
+  url: https://cardboctober.github.io/max/10/
   blog_url: https://blog.omgmog.net/post/cardboctober-10/
-  img: https://cardboctober.xyz/max/10/giphy.gif
+  img: https://cardboctober.github.io/max/10/giphy.gif
   by: omgmog
 
 - date: 10-10-2016
   title: Circles
-  url: https://cardboctober.xyz/ben/10/
-  img: https://cardboctober.xyz/ben/10/screen.png
+  url: https://cardboctober.github.io/ben/10/
+  img: https://cardboctober.github.io/ben/10/screen.png
   by: benfoxall
 
 - date: 10-10-2016
   title: Island
-  url: https://cardboctober.xyz/pete/10/
-  img: https://cardboctober.xyz/pete/10/screenshot.png
+  url: https://cardboctober.github.io/pete/10/
+  img: https://cardboctober.github.io/pete/10/screenshot.png
   by: peterjwest
 
 - date: 11-10-2016
   title: Webaudio Beat Sequencer
-  url: https://cardboctober.xyz/max/11/
+  url: https://cardboctober.github.io/max/11/
   blog_url: https://blog.omgmog.net/post/cardboctober-11/
-  img: https://cardboctober.xyz/max/11/giphy.gif
+  img: https://cardboctober.github.io/max/11/giphy.gif
   by: omgmog
 
 - date: 11-10-2016
   title: Bubbles
-  url: https://cardboctober.xyz/ben/11/
-  img: https://cardboctober.xyz/ben/11/screen.png
+  url: https://cardboctober.github.io/ben/11/
+  img: https://cardboctober.github.io/ben/11/screen.png
   by: benfoxall
 
 - date: 11-10-2016
   title: Blink
-  url: https://cardboctober.xyz/pete/11/
-  img: https://cardboctober.xyz/pete/11/screenshot.png
+  url: https://cardboctober.github.io/pete/11/
+  img: https://cardboctober.github.io/pete/11/screenshot.png
   by: peterjwest
 
 - date: 12-10-2016
   title: AAAAH! Zombies
-  url: https://cardboctober.xyz/max/12/
+  url: https://cardboctober.github.io/max/12/
   blog_url: https://blog.omgmog.net/post/cardboctober-12/
-  img: https://cardboctober.xyz/max/12/giphy.gif
+  img: https://cardboctober.github.io/max/12/giphy.gif
   by: omgmog
 
 - date: 12-10-2016
   title: Meetup data
-  url: https://cardboctober.xyz/ben/12/
-  img: https://cardboctober.xyz/ben/12/screen.png
+  url: https://cardboctober.github.io/ben/12/
+  img: https://cardboctober.github.io/ben/12/screen.png
   by: benfoxall
 
 - date: 12-10-2016
   title: "720"
-  url: https://cardboctober.xyz/pete/12/
-  img: https://cardboctober.xyz/pete/12/screenshot.png
+  url: https://cardboctober.github.io/pete/12/
+  img: https://cardboctober.github.io/pete/12/screenshot.png
   by: peterjwest
 
 - date: 13-10-2016
   title: AAAAH! More Zombies
-  url: https://cardboctober.xyz/max/13/
+  url: https://cardboctober.github.io/max/13/
   blog_url: https://blog.omgmog.net/post/cardboctober-13/
-  img: https://cardboctober.xyz/max/13/giphy.gif
+  img: https://cardboctober.github.io/max/13/giphy.gif
   by: omgmog
 
 - date: 13-10-2016
   title: Cat
-  url: https://cardboctober.xyz/pete/13/
-  img: https://cardboctober.xyz/pete/13/screenshot.png
+  url: https://cardboctober.github.io/pete/13/
+  img: https://cardboctober.github.io/pete/13/screenshot.png
   by: peterjwest
 
 - date: 14-10-2016
@@ -259,8 +259,8 @@
 
 - date: 14-10-2016
   title: Seascape
-  url: https://cardboctober.xyz/pete/14/
-  img: https://cardboctober.xyz/pete/14/screenshot.png
+  url: https://cardboctober.github.io/pete/14/
+  img: https://cardboctober.github.io/pete/14/screenshot.png
   by: peterjwest
 
 - date: 15-10-2016
@@ -271,8 +271,8 @@
 
 - date: 15-10-2016
   title: Fishies
-  url: https://cardboctober.xyz/pete/15/
-  img: https://cardboctober.xyz/pete/15/screenshot.png
+  url: https://cardboctober.github.io/pete/15/
+  img: https://cardboctober.github.io/pete/15/screenshot.png
   by: peterjwest
 
 - date: 16-10-2016
@@ -283,14 +283,14 @@
 
 - date: 16-10-2016
   title: Meetup data II
-  url: https://cardboctober.xyz/ben/16/
-  img: https://cardboctober.xyz/ben/16/screen.png
+  url: https://cardboctober.github.io/ben/16/
+  img: https://cardboctober.github.io/ben/16/screen.png
   by: benfoxall
 
 - date: 16-10-2016
   title: Controller
-  url: https://cardboctober.xyz/pete/16/
-  img: https://cardboctober.xyz/pete/16/screenshot.png
+  url: https://cardboctober.github.io/pete/16/
+  img: https://cardboctober.github.io/pete/16/screenshot.png
   by: peterjwest
 
 - date: 17-10-2016
@@ -301,8 +301,8 @@
 
 - date: 17-10-2016
   title: Whack a mole
-  url: https://cardboctober.xyz/pete/17/
-  img: https://cardboctober.xyz/pete/17/screenshot.png
+  url: https://cardboctober.github.io/pete/17/
+  img: https://cardboctober.github.io/pete/17/screenshot.png
   by: peterjwest
 
 - date: 18-10-2016
@@ -313,8 +313,8 @@
 
 - date: 18-10-2016
   title: Mirror
-  url: https://cardboctober.xyz/pete/18/
-  img: https://cardboctober.xyz/pete/18/screenshot.png
+  url: https://cardboctober.github.io/pete/18/
+  img: https://cardboctober.github.io/pete/18/screenshot.png
   by: peterjwest
 
 - date: 19-10-2016
@@ -325,8 +325,8 @@
 
 - date: 19-10-2016
   title: Trees
-  url: https://cardboctober.xyz/pete/19/
-  img: https://cardboctober.xyz/pete/19/screenshot.png
+  url: https://cardboctober.github.io/pete/19/
+  img: https://cardboctober.github.io/pete/19/screenshot.png
   by: peterjwest
 
 # I miss Ben :(
@@ -339,8 +339,8 @@
 
 - date: 20-10-2016
   title: Shout
-  url: https://cardboctober.xyz/pete/20/
-  img: https://cardboctober.xyz/pete/20/screenshot.png
+  url: https://cardboctober.github.io/pete/20/
+  img: https://cardboctober.github.io/pete/20/screenshot.png
   by: peterjwest
 
 - date: 21-10-2016
@@ -351,15 +351,15 @@
 
 - date: 21-10-2016
   title: UX Improvements
-  url: https://cardboctober.xyz/pete/21/
+  url: https://cardboctober.github.io/pete/21/
   blog_url: https://medium.com/@peterjwest/web-vr-ux-and-fullscreen-on-ios-762192c38102
-  img: https://cardboctober.xyz/pete/21/screenshot.png
+  img: https://cardboctober.github.io/pete/21/screenshot.png
   by: peterjwest
 
 - date: 22-10-2016
   title: Putting it all together
   blog_url: https://blog.omgmog.net/post/cardboctober-22/
-  img: https://cardboctober.xyz/max/22/tevris-01.jpg
+  img: https://cardboctober.github.io/max/22/tevris-01.jpg
   by: omgmog
 
 - date: 22-10-2016
@@ -369,117 +369,117 @@
 
 - date: 23-10-2016
   title: Planning Tetrominoes in VR
-  url: https://cardboctober.xyz/max/23
+  url: https://cardboctober.github.io/max/23
   blog_url: https://blog.omgmog.net/post/cardboctober-23/
-  img: https://cardboctober.xyz/max/23/tevris-02.jpg
+  img: https://cardboctober.github.io/max/23/tevris-02.jpg
   by: omgmog
 
 - date: 23-10-2016
   title: iOS North
-  url: https://cardboctober.xyz/pete/23/
-  img: https://cardboctober.xyz/pete/23/screenshot.png
+  url: https://cardboctober.github.io/pete/23/
+  img: https://cardboctober.github.io/pete/23/screenshot.png
   by: peterjwest
 
 - date: 24-10-2016
   title: Basic Game Board
-  url: https://cardboctober.xyz/max/24
+  url: https://cardboctober.github.io/max/24
   blog_url: https://blog.omgmog.net/post/cardboctober-24/
-  img: https://cardboctober.xyz/max/24/tevris-03.jpg
+  img: https://cardboctober.github.io/max/24/tevris-03.jpg
   by: omgmog
 
 - date: 24-10-2016
   title: Bullet time
-  url: https://cardboctober.xyz/pete/24/
-  img: https://cardboctober.xyz/pete/24/screenshot.png
+  url: https://cardboctober.github.io/pete/24/
+  img: https://cardboctober.github.io/pete/24/screenshot.png
   by: peterjwest
 
 - date: 25-10-2016
   title: Creating and Moving Pieces
-  url: https://cardboctober.xyz/max/25
+  url: https://cardboctober.github.io/max/25
   blog_url: https://blog.omgmog.net/post/cardboctober-25/
-  img: https://cardboctober.xyz/max/25/tevris-04.jpg
+  img: https://cardboctober.github.io/max/25/tevris-04.jpg
   by: omgmog
 
 - date: 25-10-2016
   title: Smart device pairing
-  url: https://cardboctober.xyz/pete/25/
-  img: https://cardboctober.xyz/pete/25/screenshot.png
+  url: https://cardboctober.github.io/pete/25/
+  img: https://cardboctober.github.io/pete/25/screenshot.png
   by: peterjwest
 
 - date: 26-10-2016
   title: Rotating Pieces
-  url: https://cardboctober.xyz/max/26
+  url: https://cardboctober.github.io/max/26
   blog_url: https://blog.omgmog.net/post/cardboctober-26/
-  img: https://cardboctober.xyz/max/26/tevris-05.jpg
+  img: https://cardboctober.github.io/max/26/tevris-05.jpg
   by: omgmog
 
 - date: 26-10-2016
   title: Laser battle
-  url: https://cardboctober.xyz/pete/26/
-  img: https://cardboctober.xyz/pete/26/screenshot.png
+  url: https://cardboctober.github.io/pete/26/
+  img: https://cardboctober.github.io/pete/26/screenshot.png
   by: peterjwest
 
 - date: 27-10-2016
   title: Moving with gaze 💩
-  url: https://cardboctober.xyz/max/27
+  url: https://cardboctober.github.io/max/27
   blog_url: https://blog.omgmog.net/post/cardboctober-27/
-  img: https://cardboctober.xyz/max/27/tevris-06.jpg
+  img: https://cardboctober.github.io/max/27/tevris-06.jpg
   by: omgmog
 
 - date: 27-10-2016
   title: Hairy ball
-  url: https://cardboctober.xyz/pete/27/
-  img: https://cardboctober.xyz/pete/27/screenshot.png
+  url: https://cardboctober.github.io/pete/27/
+  img: https://cardboctober.github.io/pete/27/screenshot.png
   by: peterjwest
 
 - date: 28-10-2016
   title: Planning Revisited
-  # url: https://cardboctober.xyz/max/28
+  # url: https://cardboctober.github.io/max/28
   blog_url: https://blog.omgmog.net/post/cardboctober-28/
-  img: https://cardboctober.xyz/max/28/tevris-07.jpg
+  img: https://cardboctober.github.io/max/28/tevris-07.jpg
   by: omgmog
 
 - date: 28-10-2016
   title: Beer
-  url: https://cardboctober.xyz/pete/28/
-  img: https://cardboctober.xyz/pete/28/screenshot.png
+  url: https://cardboctober.github.io/pete/28/
+  img: https://cardboctober.github.io/pete/28/screenshot.png
   by: peterjwest
 
 - date: 29-10-2016
   title: Blocks out of the pram
-  url: https://cardboctober.xyz/max/29
+  url: https://cardboctober.github.io/max/29
   blog_url: https://blog.omgmog.net/post/cardboctober-29/
-  img: https://cardboctober.xyz/max/29/tevris-08.jpg
+  img: https://cardboctober.github.io/max/29/tevris-08.jpg
   by: omgmog
 
 - date: 29-10-2016
   title: Desert island
-  url: https://cardboctober.xyz/pete/29/
-  img: https://cardboctober.xyz/pete/29/screenshot.png
+  url: https://cardboctober.github.io/pete/29/
+  img: https://cardboctober.github.io/pete/29/screenshot.png
   by: peterjwest
 
 - date: 30-10-2016
   title: Github Contributions
-  url: https://cardboctober.xyz/max/30
+  url: https://cardboctober.github.io/max/30
   blog_url: https://blog.omgmog.net/post/cardboctober-30/
-  img: https://cardboctober.xyz/max/30/giphy.gif
+  img: https://cardboctober.github.io/max/30/giphy.gif
   by: omgmog
 
 - date: 30-10-2016
   title: For Max, with love
-  url: https://cardboctober.xyz/pete/30/
-  img: https://cardboctober.xyz/pete/30/screenshot.png
+  url: https://cardboctober.github.io/pete/30/
+  img: https://cardboctober.github.io/pete/30/screenshot.png
   by: peterjwest
 
 - date: 31-10-2016
   title: Something in the Shadows
-  url: https://cardboctober.xyz/max/31
+  url: https://cardboctober.github.io/max/31
   blog_url: https://blog.omgmog.net/post/cardboctober-31/
-  img: https://cardboctober.xyz/max/31/giphy.gif
+  img: https://cardboctober.github.io/max/31/giphy.gif
   by: omgmog
 
 - date: 31-10-2016
   title: Creepy-pawly
-  url: https://cardboctober.xyz/pete/31/
-  img: https://cardboctober.xyz/pete/31/screenshot.png
+  url: https://cardboctober.github.io/pete/31/
+  img: https://cardboctober.github.io/pete/31/screenshot.png
   by: peterjwest

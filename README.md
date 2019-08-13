@@ -17,7 +17,7 @@ The structure of your edit should be as follows:
 ```yml
 - date: 01-10-2016 # (dd-mm-yyyy)
   title: # (e.g. Basic VR)
-  url: # (e.g. https://cardboctober.xyz/max/01/)
+  url: # (e.g. https://cardboctober.github.io/max/01/)
   blog_url: # (Optional e.g. https://blog.omgmog.net/post/cardboctober-01/)
   img: img/max-01.png # (Optional, either full url, or file in img directory)
   by: # (Github username only, e.g. omgmog)

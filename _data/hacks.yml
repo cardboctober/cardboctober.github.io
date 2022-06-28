@@ -1,14 +1,14 @@
 # - date: 01-10-2016 (dd-mm-yyyy)
 #   title: (e.g. Basic VR)
 #   url: (e.g. https://cardboctober.github.io/max/01/)
-#   blog_url: (e.g. https://blog.omgmog.net/post/cardboctober-01/)
+#   blog_url: (e.g. https://blog.omgmog.net/cardboctober/cardboctober-01/)
 #   img: img/max-01.png (either full url, or file in img directory)
 #   by: (Github username only, e.g. omgmog)
 
 - date: 01-10-2016
   title: Basic VR
   url: https://cardboctober.github.io/max/01/
-  blog_url: https://blog.omgmog.net/post/cardboctober-01/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-01/
   img: https://cardboctober.github.io/max/01/giphy.gif
   by: omgmog
 
@@ -27,7 +27,7 @@
 - date: 02-10-2016
   title: Raycaster based look interaction
   url: https://cardboctober.github.io/max/02/
-  blog_url: https://blog.omgmog.net/post/cardboctober-02/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-02/
   img: https://cardboctober.github.io/max/02/giphy.gif
   by: omgmog
 
@@ -52,7 +52,7 @@
 - date: 03-10-2016
   title: Even better gazed based look interaction
   url: https://cardboctober.github.io/max/03/
-  blog_url:   https://blog.omgmog.net/post/cardboctober-03/
+  blog_url:   https://blog.omgmog.net/cardboctober/cardboctober-03/
   img: https://cardboctober.github.io/max/03/giphy.gif
   by: omgmog
 
@@ -71,7 +71,7 @@
 - date: 04-10-2016
   title: Skyboxes and generating meshes
   url: https://cardboctober.github.io/max/04/
-  blog_url:   https://blog.omgmog.net/post/cardboctober-04/
+  blog_url:   https://blog.omgmog.net/cardboctober/cardboctober-04/
   img: https://cardboctober.github.io/max/04/giphy.gif
   by: omgmog
 
@@ -90,7 +90,7 @@
 - date: 05-10-2016
   title: Loading external models
   url: https://cardboctober.github.io/max/05/
-  blog_url:   https://blog.omgmog.net/post/cardboctober-05/
+  blog_url:   https://blog.omgmog.net/cardboctober/cardboctober-05/
   img: https://cardboctober.github.io/max/05/giphy.gif
   by: omgmog
 
@@ -109,7 +109,7 @@
 - date: 06-10-2016
   title: VR Pairs Game
   url: https://cardboctober.github.io/max/06/
-  blog_url: https://blog.omgmog.net/post/cardboctober-06/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-06/
   img: https://cardboctober.github.io/max/06/giphy.gif
   by: omgmog
 
@@ -127,7 +127,7 @@
 
 - date: 07-10-2016
   title: Cardboard hardware (cardware?)
-  blog_url: https://blog.omgmog.net/post/cardboctober-07/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-07/
   img: https://blog.omgmog.net/images/2016-10/07/eyes.jpg
   by: omgmog
 
@@ -146,7 +146,7 @@
 - date: 08-10-2016
   title: Playing sounds
   url: https://cardboctober.github.io/max/08/
-  blog_url: https://blog.omgmog.net/post/cardboctober-08/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-08/
   img: https://cardboctober.github.io/max/08/giphy.gif
   by: omgmog
 
@@ -165,7 +165,7 @@
 - date: 09-10-2016
   title: Speech Recognition
   url: https://cardboctober.github.io/max/09/
-  blog_url: https://blog.omgmog.net/post/cardboctober-09/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-09/
   img: https://cardboctober.github.io/max/09/giphy.gif
   by: omgmog
 
@@ -184,7 +184,7 @@
 - date: 10-10-2016
   title: HTML5 Video
   url: https://cardboctober.github.io/max/10/
-  blog_url: https://blog.omgmog.net/post/cardboctober-10/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-10/
   img: https://cardboctober.github.io/max/10/giphy.gif
   by: omgmog
 
@@ -203,7 +203,7 @@
 - date: 11-10-2016
   title: Webaudio Beat Sequencer
   url: https://cardboctober.github.io/max/11/
-  blog_url: https://blog.omgmog.net/post/cardboctober-11/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-11/
   img: https://cardboctober.github.io/max/11/giphy.gif
   by: omgmog
 
@@ -222,7 +222,7 @@
 - date: 12-10-2016
   title: AAAAH! Zombies
   url: https://cardboctober.github.io/max/12/
-  blog_url: https://blog.omgmog.net/post/cardboctober-12/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-12/
   img: https://cardboctober.github.io/max/12/giphy.gif
   by: omgmog
 
@@ -241,7 +241,7 @@
 - date: 13-10-2016
   title: AAAAH! More Zombies
   url: https://cardboctober.github.io/max/13/
-  blog_url: https://blog.omgmog.net/post/cardboctober-13/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-13/
   img: https://cardboctober.github.io/max/13/giphy.gif
   by: omgmog
 
@@ -253,7 +253,7 @@
 
 - date: 14-10-2016
   title: Debugging your Cardboard with Chrome
-  blog_url: https://blog.omgmog.net/post/cardboctober-14/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-14/
   img: https://blog.omgmog.net/images/2016-10/14/core.jpg
   by: omgmog
 
@@ -265,7 +265,7 @@
 
 - date: 15-10-2016
   title: The Hierarchy of Needs in Quick Google Cardboard Hacks
-  blog_url: https://blog.omgmog.net/post/cardboctober-15/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-15/
   img: https://blog.omgmog.net/images/2016-10/15/hierarchy.png
   by: omgmog
 
@@ -277,7 +277,7 @@
 
 - date: 16-10-2016
   title: Getting in and out of Fullscreen
-  blog_url: https://blog.omgmog.net/post/cardboctober-16/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-16/
   img: https://blog.omgmog.net/images/2016-10/16/fsdevice.png
   by: omgmog
 
@@ -295,7 +295,7 @@
 
 - date: 17-10-2016
   title: Displaying Pertinent Information
-  blog_url: https://blog.omgmog.net/post/cardboctober-17/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-17/
   img: https://blog.omgmog.net/images/2016-10/17/2.png
   by: omgmog
 
@@ -307,7 +307,7 @@
 
 - date: 18-10-2016
   title: Moving around in VR
-  blog_url: https://blog.omgmog.net/post/cardboctober-18/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-18/
   img: https://blog.omgmog.net/images/2016-10/18/knightmare.jpg
   by: omgmog
 
@@ -319,7 +319,7 @@
 
 - date: 19-10-2016
   title: Which way is North? Part 1
-  blog_url: https://blog.omgmog.net/post/cardboctober-19/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-19/
   img: https://blog.omgmog.net/images/2016-10/19/presenting.png
   by: omgmog
 
@@ -333,7 +333,7 @@
 
 - date: 20-10-2016
   title: Which way is North? Part 2
-  blog_url: https://blog.omgmog.net/post/cardboctober-20/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-20/
   img: https://blog.omgmog.net/images/2016-10/20/images.png
   by: omgmog
 
@@ -345,7 +345,7 @@
 
 - date: 21-10-2016
   title: One size doesn't fit all
-  blog_url: https://blog.omgmog.net/post/cardboctober-21/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-21/
   img: https://blog.omgmog.net/images/2016-10/21/bad-ipd.png
   by: omgmog
 
@@ -358,7 +358,7 @@
 
 - date: 22-10-2016
   title: Putting it all together
-  blog_url: https://blog.omgmog.net/post/cardboctober-22/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-22/
   img: https://cardboctober.github.io/max/22/tevris-01.jpg
   by: omgmog
 
@@ -370,7 +370,7 @@
 - date: 23-10-2016
   title: Planning Tetrominoes in VR
   url: https://cardboctober.github.io/max/23
-  blog_url: https://blog.omgmog.net/post/cardboctober-23/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-23/
   img: https://cardboctober.github.io/max/23/tevris-02.jpg
   by: omgmog
 
@@ -383,7 +383,7 @@
 - date: 24-10-2016
   title: Basic Game Board
   url: https://cardboctober.github.io/max/24
-  blog_url: https://blog.omgmog.net/post/cardboctober-24/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-24/
   img: https://cardboctober.github.io/max/24/tevris-03.jpg
   by: omgmog
 
@@ -396,7 +396,7 @@
 - date: 25-10-2016
   title: Creating and Moving Pieces
   url: https://cardboctober.github.io/max/25
-  blog_url: https://blog.omgmog.net/post/cardboctober-25/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-25/
   img: https://cardboctober.github.io/max/25/tevris-04.jpg
   by: omgmog
 
@@ -409,7 +409,7 @@
 - date: 26-10-2016
   title: Rotating Pieces
   url: https://cardboctober.github.io/max/26
-  blog_url: https://blog.omgmog.net/post/cardboctober-26/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-26/
   img: https://cardboctober.github.io/max/26/tevris-05.jpg
   by: omgmog
 
@@ -422,7 +422,7 @@
 - date: 27-10-2016
   title: Moving with gaze 💩
   url: https://cardboctober.github.io/max/27
-  blog_url: https://blog.omgmog.net/post/cardboctober-27/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-27/
   img: https://cardboctober.github.io/max/27/tevris-06.jpg
   by: omgmog
 
@@ -435,7 +435,7 @@
 - date: 28-10-2016
   title: Planning Revisited
   # url: https://cardboctober.github.io/max/28
-  blog_url: https://blog.omgmog.net/post/cardboctober-28/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-28/
   img: https://cardboctober.github.io/max/28/tevris-07.jpg
   by: omgmog
 
@@ -448,7 +448,7 @@
 - date: 29-10-2016
   title: Blocks out of the pram
   url: https://cardboctober.github.io/max/29
-  blog_url: https://blog.omgmog.net/post/cardboctober-29/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-29/
   img: https://cardboctober.github.io/max/29/tevris-08.jpg
   by: omgmog
 
@@ -461,7 +461,7 @@
 - date: 30-10-2016
   title: Github Contributions
   url: https://cardboctober.github.io/max/30
-  blog_url: https://blog.omgmog.net/post/cardboctober-30/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-30/
   img: https://cardboctober.github.io/max/30/giphy.gif
   by: omgmog
 
@@ -474,7 +474,7 @@
 - date: 31-10-2016
   title: Something in the Shadows
   url: https://cardboctober.github.io/max/31
-  blog_url: https://blog.omgmog.net/post/cardboctober-31/
+  blog_url: https://blog.omgmog.net/cardboctober/cardboctober-31/
   img: https://cardboctober.github.io/max/31/giphy.gif
   by: omgmog
 
